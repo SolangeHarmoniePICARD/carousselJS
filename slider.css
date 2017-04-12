@@ -1,0 +1,33 @@
+#slider{
+  position: relative;
+  width: 480px;
+  height: 320px;
+  overflow: hidden;
+  margin: auto;
+  display: flex;
+}
+  #slider img{
+    position: relative;
+    float: right;
+    z-index: 1;
+  }
+  #slider a{
+    position: absolute;
+    margin-top: 150px;
+    font-size: 20px;
+    text-decoration: none;
+    z-index: 2;
+    color:bisque;
+    opacity: 0.4;
+    transition: 1s;
+  }
+    #slider a:hover {
+      opacity: 0.9;
+      transition: 1s;
+    }
+      #flecheGauche{
+        margin-left: 5px;
+      }
+      #flecheDroite{
+        margin-left: 455px;
+      }
